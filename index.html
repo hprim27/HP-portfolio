@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harrison Prim - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation - Like the opening bars of a piece -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="https://www.youtube.com/@harrythewzrd/featured" target="_blank" title="Check out my music on YouTube">
+                    <img src="images/Harrylogosmall.png" alt="Harrison Prim Logo" class="logo-image">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#cybersecurity" class="nav-link">Cybersecurity</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="artist-of-day.html" class="nav-link">Artist of the Day</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - The main theme -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Hello, I'm</span>
+                    <span class="title-main">Harrison Prim</span>
+                    <span class="title-subtitle">Full-Stack Developer</span>
+                </h1>
+                <p class="hero-description">
+                    Crafting digital experiences with code, inspired by the harmony of music and technology.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="artist-of-day.html" class="btn btn-secondary">🎵 Artist of the Day</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Space for the animated name -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section - The development -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a creative developer with an Associate's degree in Cybersecurity with my Bachelor's expected in May 2026. 
+                        I bounced around different majors at the Univeristy of Kansas before I decided to drop out to pursue my passion for music. 
+                        My background in music production has taught me the importance of structure, 
+                        creativity, and attention to detail, principles I apply to every line of code.
+                    </p>
+                    <p>
+                        I've successfully delivered client projects including professional websites for artists 
+                        and businesses, demonstrating my ability to understand client needs and translate them 
+                        into elegant, functional web solutions.
+                    </p>
+                    
+                </div>
+                <div class="school-logos">
+                    <div class="logo-item">
+                        <img src="images/rockhurstlogo.png" alt="Rockhurst University" class="school-logo">
+                        <span class="school-name">Rockhurst High School</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/KUMarks_Jayhawk.png" alt="University of Kansas" class="school-logo">
+                        <span class="school-name">University of Kansas</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/SNHUlogo.png" alt="Southern New Hampshire University" class="school-logo">
+                        <span class="school-name">Southern New Hampshire University</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cybersecurity Experience Section - The technical foundation -->
+    <section id="cybersecurity" class="cybersecurity">
+        <div class="container">
+            <h2 class="section-title">Cybersecurity Experience</h2>
+            <div class="cyber-content">
+                <div class="cyber-grid">
+                    <div class="cyber-card">
+                        <div class="cyber-icon">🔍</div>
+                        <h3>Vulnerability Assessment</h3>
+                        <p>Conducted comprehensive network vulnerability scanning using Nmap to identify open ports, 
+                        services, and potential security weaknesses in network infrastructure.</p>
+                        <div class="cyber-tools">
+                            <span class="tool-tag">Nmap</span>
+                            <span class="tool-tag">Network Scanning</span>
+                            <span class="tool-tag">Port Analysis</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cyber-card">
+                        <div class="cyber-icon">🦠</div>
+                        <h3>Malware Analysis</h3>
+                        <p>Performed static and dynamic malware analysis in controlled lab environments, 
+                        examining malicious code behavior and developing countermeasures.</p>
+                        <div class="cyber-tools">
+                            <span class="tool-tag">Static Analysis</span>
+                            <span class="tool-tag">Dynamic Analysis</span>
+                            <span class="tool-tag">Behavioral Analysis</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cyber-card">
+                        <div class="cyber-icon">🛡️</div>
+                        <h3>Firewall Configuration</h3>
+                        <p>Configured and managed OPNsense firewall systems, implementing security policies, 
+                        access controls, and monitoring network traffic for threats.</p>
+                        <div class="cyber-tools">
+                            <span class="tool-tag">OPNsense</span>
+                            <span class="tool-tag">Firewall Rules</span>
+                            <span class="tool-tag">Access Control</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cyber-card">
+                        <div class="cyber-icon">📊</div>
+                        <h3>Packet Analysis</h3>
+                        <p>Utilized Wireshark for deep packet inspection, analyzing network protocols, 
+                        identifying suspicious traffic patterns, and troubleshooting network issues.</p>
+                        <div class="cyber-tools">
+                            <span class="tool-tag">Wireshark</span>
+                            <span class="tool-tag">Protocol Analysis</span>
+                            <span class="tool-tag">Traffic Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section - The variations -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🎨</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Donovan McGlory Art</h3>
+                        <p>Professional artist portfolio website showcasing artwork, exhibitions, and framing services. Built with modern web technologies and responsive design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.donovanmcgloryart.com/" target="_blank" class="project-link">View Live Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🎵</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Music Production App</h3>
+                        <p>A web-based music production tool built with React and Web Audio API</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Web Audio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🔒</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Cybersecurity Dashboard</h3>
+                        <p>Real-time security monitoring system with threat detection</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🎵</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Artist of the Day</h3>
+                        <p>A dynamic web application that displays famous musicians born on the current date. Features API integration with Wikipedia, responsive design, and interactive navigation between artists.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="artist-of-day.html" class="project-link">View Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section - The technique -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Responsive Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express</span>
+                        <span class="skill-item">Django</span>
+                        <span class="skill-item">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cybersecurity</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Network Security</span>
+                        <span class="skill-item">Penetration Testing</span>
+                        <span class="skill-item">Security Analysis</span>
+                        <span class="skill-item">Incident Response</span>
+                        <span class="skill-item">Risk Assessment</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Client Work</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Client Communication</span>
+                        <span class="skill-item">Requirements Analysis</span>
+                        <span class="skill-item">Project Management</span>
+                        <span class="skill-item">User Experience</span>
+                        <span class="skill-item">Responsive Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Linux</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Agile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - The finale -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                                <div class="contact-info">
+                    
+                    
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <span class="contact-icon"> </span>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:harrison.prim@gmail.com">harrison.prim@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon"> </span>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/hprim27" target="_blank" rel="noopener noreferrer">github.com/hprim27</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="contact-icon"> </span>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/harrison-prim-9a5361219/" target="_blank" rel="noopener noreferrer">linkedin.com/in/harrison-prim-9a5361219/</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - The coda -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Harrison Prim.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
