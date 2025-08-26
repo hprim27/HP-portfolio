@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harrison Prim - Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        // Force scroll to top immediately when page starts loading
+        window.scrollTo(0, 0);
+    </script>
 </head>
 <body>
-    <!-- Navigation - Like the opening bars of a piece -->
+    <!-- Navigation - Sleek and modern -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
@@ -33,119 +37,110 @@
         </div>
     </nav>
 
-    <!-- Hero Section - The main theme -->
+    <!-- Hero Section - Clean and impactful -->
     <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    <span class="title-line">Hello, I'm</span>
-                    <span class="title-main">Harrison Prim</span>
-                    <span class="title-subtitle">Full-Stack Developer</span>
-                </h1>
-                <p class="hero-description">
-                    Crafting digital experiences with code, inspired by the harmony of music and technology.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="artist-of-day.html" class="btn btn-secondary">🎵 Artist of the Day</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <!-- Space for the animated name -->
+        <div class="hero-content">
+            <h1 class="hero-title">Harrison Prim</h1>
+            <p class="hero-subtitle">Full-Stack Development & Cybersecurity</p>
+            
+            
+            <!-- Floating Music Notes as Interactive Buttons -->
+            <div class="music-notes-container">
+                <a href="#projects" class="music-note" title="View My Work">🎵</a>
+                <a href="artist-of-day.html" class="music-note" title="Artist of the Day">🎶</a>
+                <a href="#contact" class="music-note" title="Get In Touch">🎼</a>
             </div>
         </div>
     </section>
 
-    <!-- About Section - The development -->
+    <!-- About Section - Clean and elegant -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Developer, Musician, Problem Solver</p>
+            </div>
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        I'm a creative developer with an Associate's degree in Cybersecurity with my Bachelor's expected in May 2026. 
-                        I bounced around different majors at the Univeristy of Kansas before I decided to drop out to pursue my passion for music. 
-                        My background in music production has taught me the importance of structure, 
-                        creativity, and attention to detail, principles I apply to every line of code.
+                        I’m a developer and security practitioner with an Associate’s degree in Cybersecurity and a Bachelor’s expected in May 2026. I initially studied at the University of Kansas, where I explored several majors before leaving to pursue my passion for music. My career in audio engineering and music production sparked my interest in computer science and taught me the value of structure, creativity, and attention to detail—principles I now bring into every line of code.
                     </p>
                     <p>
-                        I've successfully delivered client projects including professional websites for artists 
-                        and businesses, demonstrating my ability to understand client needs and translate them 
-                        into elegant, functional web solutions.
+                        I’ve successfully delivered client projects, and I’m continuously expanding my technical skill set and refining my ability to understand client needs, translating them into effective and functional solutions.
                     </p>
-                    
                 </div>
                 <div class="school-logos">
                     <div class="logo-item">
-                        <img src="images/rockhurstlogo.png" alt="Rockhurst University" class="school-logo">
-                        <span class="school-name">Rockhurst High School</span>
+                        <a href="https://www.rockhursths.edu/about-us" target="_blank" rel="noopener noreferrer" title="Learn more about Rockhurst High School">
+                            <img src="images/rockhurstlogo.png" alt="Rockhurst High School" class="school-logo">
+                            <span class="school-name">Rockhurst High School</span>
+                        </a>
                     </div>
                     <div class="logo-item">
-                        <img src="images/KUMarks_Jayhawk.png" alt="University of Kansas" class="school-logo">
-                        <span class="school-name">University of Kansas</span>
+                        <a href="https://www.ku.edu/about-ku" target="_blank" rel="noopener noreferrer" title="Learn more about the University of Kansas">
+                            <img src="images/KUMarks_Jayhawk.png" alt="University of Kansas" class="school-logo">
+                            <span class="school-name">University of Kansas</span>
+                        </a>
                     </div>
                     <div class="logo-item">
-                        <img src="images/SNHUlogo.png" alt="Southern New Hampshire University" class="school-logo">
-                        <span class="school-name">Southern New Hampshire University</span>
+                        <a href="https://www.snhu.edu/about-us" target="_blank" rel="noopener noreferrer" title="Learn more about Southern New Hampshire University">
+                            <img src="images/SNHUlogo.png" alt="Southern New Hampshire University" class="school-logo">
+                            <span class="school-name">Southern New Hampshire University</span>
+                        </a>
                     </div>
-                    
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Cybersecurity Experience Section - The technical foundation -->
+    <!-- Cybersecurity Experience Section - Professional and clean -->
     <section id="cybersecurity" class="cybersecurity">
         <div class="container">
-            <h2 class="section-title">Cybersecurity Experience</h2>
+            <div class="section-header">
+                <h2 class="section-title">Cybersecurity Experience</h2>
+                <p class="section-subtitle">Hands-on experience with industry-standard tools and techniques</p>
+            </div>
             <div class="cyber-content">
+                <div class="cyber-intro">
+                    <p class="cyber-description">
+                        My cybersecurity education includes extensive hands-on lab work, providing practical experience with industry-standard tools and techniques. These skills form the foundation of my approach to secure development and system architecture.
+                    </p>
+                </div>
                 <div class="cyber-grid">
                     <div class="cyber-card">
                         <div class="cyber-icon">🔍</div>
-                        <h3>Vulnerability Assessment</h3>
-                        <p>Conducted comprehensive network vulnerability scanning using Nmap to identify open ports, 
-                        services, and potential security weaknesses in network infrastructure.</p>
+                        <h3>Vulnerability Scanning</h3>
+                        <p>Network and port scanning using Nmap for security assessments</p>
                         <div class="cyber-tools">
                             <span class="tool-tag">Nmap</span>
-                            <span class="tool-tag">Network Scanning</span>
-                            <span class="tool-tag">Port Analysis</span>
+                            <span class="tool-tag">Network Security</span>
                         </div>
                     </div>
-                    
-                    <div class="cyber-card">
-                        <div class="cyber-icon">🦠</div>
-                        <h3>Malware Analysis</h3>
-                        <p>Performed static and dynamic malware analysis in controlled lab environments, 
-                        examining malicious code behavior and developing countermeasures.</p>
-                        <div class="cyber-tools">
-                            <span class="tool-tag">Static Analysis</span>
-                            <span class="tool-tag">Dynamic Analysis</span>
-                            <span class="tool-tag">Behavioral Analysis</span>
-                        </div>
-                    </div>
-                    
                     <div class="cyber-card">
                         <div class="cyber-icon">🛡️</div>
-                        <h3>Firewall Configuration</h3>
-                        <p>Configured and managed OPNsense firewall systems, implementing security policies, 
-                        access controls, and monitoring network traffic for threats.</p>
+                        <h3>Malware Analysis</h3>
+                        <p>Static and dynamic analysis of malicious software</p>
                         <div class="cyber-tools">
-                            <span class="tool-tag">OPNsense</span>
-                            <span class="tool-tag">Firewall Rules</span>
-                            <span class="tool-tag">Access Control</span>
+                            <span class="tool-tag">Malware Analysis</span>
+                            <span class="tool-tag">Security Tools</span>
                         </div>
                     </div>
-                    
+                    <div class="cyber-card">
+                        <div class="cyber-icon">🔥</div>
+                        <h3>Firewall Configuration</h3>
+                        <p>Network security using OPNsense firewall</p>
+                        <div class="cyber-tools">
+                            <span class="tool-tag">OPNsense</span>
+                            <span class="tool-tag">Network Security</span>
+                        </div>
+                    </div>
                     <div class="cyber-card">
                         <div class="cyber-icon">📊</div>
-                        <h3>Packet Analysis</h3>
-                        <p>Utilized Wireshark for deep packet inspection, analyzing network protocols, 
-                        identifying suspicious traffic patterns, and troubleshooting network issues.</p>
+                        <h3>Packet Inspection</h3>
+                        <p>Network traffic analysis using Wireshark</p>
                         <div class="cyber-tools">
                             <span class="tool-tag">Wireshark</span>
-                            <span class="tool-tag">Protocol Analysis</span>
-                            <span class="tool-tag">Traffic Monitoring</span>
+                            <span class="tool-tag">Network Analysis</span>
                         </div>
                     </div>
                 </div>
@@ -153,24 +148,21 @@
         </div>
     </section>
 
-    <!-- Projects Section - The variations -->
+    <!-- Projects Section - Sleek card design -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my development work and creativity</p>
+            </div>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">🎨</div>
+                        <img src="images/DMArtpreview.png" alt="Donovan McGlory Art Website Preview">
                     </div>
                     <div class="project-content">
-                        <h3>Donovan McGlory Art</h3>
-                        <p>Professional artist portfolio website showcasing artwork, exhibitions, and framing services. Built with modern web technologies and responsive design.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Responsive Design</span>
-                        </div>
+                        <h3 class="project-title">Donovan McGlory Art</h3>
+                        <p class="project-description">Professional artist portfolio website showcasing artwork, exhibitions, and framing services. Built with modern web technologies and responsive design.</p>
                         <div class="project-links">
                             <a href="https://www.donovanmcgloryart.com/" target="_blank" class="project-link">View Live Site</a>
                         </div>
@@ -178,45 +170,35 @@
                 </div>
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">🎵</div>
+                        <div style="width: 100%; height: 200px; background: linear-gradient(135deg, #00008B, #5C5CFF); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;"> Music Production</div>
                     </div>
                     <div class="project-content">
-                        <h3>Music Production App</h3>
-                        <p>A web-based music production tool built with React and Web Audio API</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Web Audio</span>
+                        <h3 class="project-title">Music Production App</h3>
+                        <p class="project-description">A web-based music production tool built with React and Web Audio API, featuring real-time audio processing and intuitive controls.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Coming Soon</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">🔒</div>
+                        <div style="width: 100%; height: 200px; background: linear-gradient(135deg, #4B0150, #7c3aed); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;"> Server Project</div>
                     </div>
                     <div class="project-content">
-                        <h3>Cybersecurity Dashboard</h3>
-                        <p>Real-time security monitoring system with threat detection</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Django</span>
-                            <span class="tech-tag">Security</span>
+                        <h3 class="project-title">Server Project</h3>
+                        <p class="project-description">Full-stack Python server featuring a custom HTTP server implementation, backend API design and integration, server-side data processing, and seamless frontend-backend communication.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/hprim27/server-project1" target="_blank" rel="noopener noreferrer" class="project-link">View Repository</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-image">
-                        <div class="project-placeholder">🎵</div>
+                        <div style="width: 100%; height: 200px; background: linear-gradient(135deg, #5C5CFF, #06b6d4); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;"> Artist of the Day</div>
                     </div>
                     <div class="project-content">
-                        <h3>Artist of the Day</h3>
-                        <p>A dynamic web application that displays famous musicians born on the current date. Features API integration with Wikipedia, responsive design, and interactive navigation between artists.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">API Integration</span>
-                        </div>
+                        <h3 class="project-title">Artist of the Day</h3>
+                        <p class="project-description">A dynamic web application that displays famous musicians born on the current date. Features API integration with Wikipedia, responsive design, and interactive navigation between artists.</p>
                         <div class="project-links">
                             <a href="artist-of-day.html" class="project-link">View Live</a>
                         </div>
@@ -226,96 +208,81 @@
         </div>
     </section>
 
-    <!-- Skills Section - The technique -->
+    <!-- Skills Section - Clean and organized -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technical expertise across multiple domains</p>
+            </div>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Frontend</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">HTML5</span>
-                        <span class="skill-item">CSS3</span>
-                        <span class="skill-item">JavaScript</span>
-                        <span class="skill-item">React</span>
-                        <span class="skill-item">Responsive Design</span>
-                    </div>
+                    <h3>Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 & Semantic Markup</li>
+                        <li>CSS3 & Modern Layouts</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React & Component Architecture</li>
+                        <li>Responsive Design & Mobile-First</li>
+                        <li>CSS Grid & Flexbox</li>
+                    </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Backend</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">Node.js</span>
-                        <span class="skill-item">Express</span>
-                        <span class="skill-item">Django</span>
-                        <span class="skill-item">REST APIs</span>
-                    </div>
+                    <h3>Backend Development</h3>
+                    <ul class="skill-list">
+                        <li>Python & Django Framework</li>
+                        <li>Node.js & Express.js</li>
+                        <li>RESTful API Design</li>
+                        <li>Database Design & Management</li>
+                        <li>Authentication & Security</li>
+                        <li>Server Deployment & DevOps</li>
+                    </ul>
                 </div>
                 <div class="skill-category">
                     <h3>Cybersecurity</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Network Security</span>
-                        <span class="skill-item">Penetration Testing</span>
-                        <span class="skill-item">Security Analysis</span>
-                        <span class="skill-item">Incident Response</span>
-                        <span class="skill-item">Risk Assessment</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Client Work</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Client Communication</span>
-                        <span class="skill-item">Requirements Analysis</span>
-                        <span class="skill-item">Project Management</span>
-                        <span class="skill-item">User Experience</span>
-                        <span class="skill-item">Responsive Design</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Tools & Others</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Git</span>
-                        <span class="skill-item">Docker</span>
-                        <span class="skill-item">Linux</span>
-                        <span class="skill-item">AWS</span>
-                        <span class="skill-item">Agile</span>
-                    </div>
+                    <ul class="skill-list">
+                        <li>Network Security & Penetration Testing</li>
+                        <li>Vulnerability Assessment & Analysis</li>
+                        <li>Malware Analysis & Incident Response</li>
+                        <li>Security Tools (Nmap, Wireshark, OPNsense)</li>
+                        <li>Risk Assessment & Security Policies</li>
+                        <li>Secure Development Practices</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section - The finale -->
+    <!-- Contact Section - Clean and professional -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Let's Connect</h2>
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to collaborate on your next project?</p>
+            </div>
             <div class="contact-content">
-                                <div class="contact-info">
-                    
-                    
-                    <div class="contact-card">
-                        <div class="contact-item">
-                            <span class="contact-icon"> </span>
-                            <div class="contact-details">
-                                <h4>Email</h4>
-                                <a href="mailto:harrison.prim@gmail.com">harrison.prim@gmail.com</a>
-                            </div>
+                <div class="contact-card">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div class="contact-details">
+                            <div class="contact-label">Email</div>
+                            <a href="mailto:harrison.prim@gmail.com" class="contact-value">harrison.prim@gmail.com</a>
                         </div>
-                        
-                        <div class="contact-item">
-                            <span class="contact-icon"> </span>
-                            <div class="contact-details">
-                                <h4>GitHub</h4>
-                                <a href="https://github.com/hprim27" target="_blank" rel="noopener noreferrer">github.com/hprim27</a>
-                            </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon"></span>
+                        <div class="contact-details">
+                            <div class="contact-label">GitHub</div>
+                            <a href="https://github.com/hprim27" target="_blank" rel="noopener noreferrer" class="contact-value">github.com/hprim27</a>
                         </div>
-                        
-                        <div class="contact-item">
-                            <span class="contact-icon"> </span>
-                            <div class="contact-details">
-                                <h4>LinkedIn</h4>
-                                <a href="https://www.linkedin.com/in/harrison-prim-9a5361219/" target="_blank" rel="noopener noreferrer">linkedin.com/in/harrison-prim-9a5361219/</a>
-                            </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-icon"></span>
+                        <div class="contact-details">
+                            <div class="contact-label">LinkedIn</div>
+                            <a href="https://www.linkedin.com/in/harrison-prim-9a5361219/" target="_blank" rel="noopener noreferrer" class="contact-value">linkedin.com/in/harrison-prim-9a5361219/</a>
                         </div>
                     </div>
                 </div>
@@ -323,10 +290,10 @@
         </div>
     </section>
 
-    <!-- Footer - The coda -->
+    <!-- Footer - Clean and minimal -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Harrison Prim.</p>
+        <div class="footer-content">
+            <p class="footer-text">&copy; 2024 Harrison Prim. All rights reserved.</p>
         </div>
     </footer>
 
